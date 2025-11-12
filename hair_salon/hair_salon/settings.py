@@ -31,7 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'salon.contrib.SalonConfig',
+    'pages.apps.PagesConfig',
+    'salon.apps.SalonConfig',
+    'master.apps.MasterConfig',
+    'appointment.apps.AppointmentConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
